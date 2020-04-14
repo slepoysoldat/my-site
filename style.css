@@ -2,36 +2,30 @@
 body{
     background-color: whitesmoke;
     background-size: 100%;
+    margin-bottom: 0;
 }
 
 header{
-    position: fixed; /* Фиксированное положение */
-    left: 0; top: 0; /* Левый нижний угол */
-    padding: 7px; /* Поля вокруг текста */
-    background: #000000; /* Цвет фона */
-    color: #fff; /* Цвет текста */
-    width: 100%; /* Ширина слоя */
+   font-family: 'Viaoda Libre', cursive;
+   border-bottom: 2px solid #000000;
+}
+.logo{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 150%;
+     margin-bottom: 0;
+   margin-top: 0;
+}
+
+nav a{
     
-}
-.art, foto , bio {
-    border-bottom: 3px solid #F5F5F5;
-    border-color: black;
-}
-
-.art:hover,.foto:hover,.bio:hover{
-    color:bisque;
-    border-bottom: 3px solid #F5F5F5;
-    border-color:darkgrey;
-    transition-delay: 0.1s;
+    padding-left: 150px;
+    padding-right: 150px;
+    vertical-align: middle;
 }
 
 
-nav{
-    font-family: 'Cormorant Garamond', serif;
-    margin-top: 3px;
-    word-spacing: 200px;
-    font-size: 25px;
-}
+
 
 
 main{
@@ -68,33 +62,17 @@ p{
     font-size: 20px;
 }
 
-footer {
-    position: fixed; /* Фиксированное положение */
-    left: 0; bottom: 0; /* Левый нижний угол */
-    padding: 10px; /* Поля вокруг текста */
-    background: #000000; /* Цвет фона */
-    color: #fff; /* Цвет текста */
-    width: 100%; /* Ширина слоя */
-   }
-
 .biografy{
     font-size: 25px;
 }
 
-div{
-    margin-top: 50px;
-}
 
-a{
-    text-decoration: none;
-    color:aliceblue;
-}
-
-a:hover{
-    color:darkgrey;
-}
-
-.inst{
+.contact{
+    vertical-align: middle;
     text-align: center;
-    margin-left: 700px;
+    margin-bottom: 0;
 }
+
+footer {
+    border-top: 2px solid #000000;
+   }
